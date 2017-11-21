@@ -1,0 +1,6 @@
+main: network.superior.Superior
+name: Superior
+version: 0.0.1-Beta
+author: GigaGamma
+description: A cool plugin
+depend: [McLink]
