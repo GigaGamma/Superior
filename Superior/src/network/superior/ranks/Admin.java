@@ -1,5 +1,5 @@
 /*
- * SuperiorNetworks tier 1 YT rank
+ * SuperiorNetworks admin rank
  */
 package network.superior.ranks;
 
