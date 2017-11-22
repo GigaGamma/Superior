@@ -22,6 +22,7 @@ import network.superior.ranks.YouTuber;
 import network.superior.ranks.YouTuber2;
 import network.superior.ranks.Admin;
 import network.superior.ranks.Moderator;
+import network.superior.ranks.ChatMod;
 
 public class Superior extends JavaPlugin implements Listener {
 	
@@ -36,6 +37,7 @@ public class Superior extends JavaPlugin implements Listener {
 		Ranks.register(new YouTuber2());
 		Ranks.register(new Admin());
 		Ranks.register(new Moderator());
+		Ranks.register(new ChatMod());
 		
 		Item.Registry.item(KnowledgeBook.class);
 		Item.Registry.item(Salad.class);
