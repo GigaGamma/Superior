@@ -35,7 +35,7 @@ public class Superior extends JavaPlugin implements Listener {
 		Ranks.register(new YouTuber());
 		Ranks.register(new YouTuber2());
 		Ranks.register(new Admin());
-		Ranks.register(new Moderator())
+		Ranks.register(new Moderator());
 		
 		Item.Registry.item(KnowledgeBook.class);
 		Item.Registry.item(Salad.class);

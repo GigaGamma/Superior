@@ -37,6 +37,7 @@ public class YouTuber implements Rank {
 	public List<Permission> getPerms() {
 		List<Permission> p = new ArrayList<Permission>();
 		p.add(new Permission("mclink.fly"));
+		p.add(new Permission("mclink.build"));
 		return p;
 	}
 
