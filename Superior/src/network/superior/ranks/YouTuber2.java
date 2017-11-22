@@ -11,7 +11,7 @@ import org.bukkit.permissions.Permission;
 
 import link.mc.permission.Rank;
 
-public class YouTuber2 implements Rank {
+public class YouTuber implements Rank {
 
 	@Override
 	public String getName() {
