@@ -20,7 +20,7 @@ public class YouTuber2 implements Rank {
 
 	@Override
 	public String getId() {
-		return "yt";
+		return "yt2";
 	}
 
 	@Override
