@@ -1,3 +1,6 @@
+/*
+ * SuperiorNetworks tier 1 YT rank
+ */
 package network.superior.ranks;
 
 import java.util.ArrayList;
