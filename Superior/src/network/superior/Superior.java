@@ -20,6 +20,8 @@ import network.superior.items.Salad;
 import network.superior.ranks.DankMeme;
 import network.superior.ranks.YouTuber;
 import network.superior.ranks.YouTuber2;
+import network.superior.ranks.Admin;
+import network.superior.ranks.Moderator;
 
 public class Superior extends JavaPlugin implements Listener {
 	
