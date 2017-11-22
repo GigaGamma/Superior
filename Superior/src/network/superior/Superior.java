@@ -19,6 +19,7 @@ import network.superior.items.KnowledgeBook;
 import network.superior.items.Salad;
 import network.superior.ranks.DankMeme;
 import network.superior.ranks.YouTuber;
+import network.superior.ranks.YouTuber2;
 
 public class Superior extends JavaPlugin implements Listener {
 	
