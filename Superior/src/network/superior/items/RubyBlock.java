@@ -6,6 +6,6 @@ import link.mc.kryan.Container;
 
 public class RubyBlock {
 	
-	public static final Container CONTAINER = new Container("Ruby Block", InventoryType.ANVIL);
+	public static final Container CONTAINER = new Container("Ruby Block", InventoryType.CREATIVE);
 	
 }
