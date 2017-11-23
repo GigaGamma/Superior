@@ -10,12 +10,14 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import link.mc.event.InventoryRunnable;
 import link.mc.event.McLinkInitEvent;
+import link.mc.kryan.Block;
 import link.mc.kryan.Crafting;
 import link.mc.kryan.Item;
 import link.mc.math.ItemId;
 import link.mc.permission.Ranks;
 import network.superior.items.KitchenCrafter;
 import network.superior.items.KnowledgeBook;
+import network.superior.items.RubyBlock;
 import network.superior.items.Salad;
 import network.superior.ranks.DankMeme;
 import network.superior.ranks.YouTuber;
@@ -41,7 +43,8 @@ public class Superior extends JavaPlugin implements Listener {
 		
 		Item.Registry.item(KnowledgeBook.class);
 		Item.Registry.item(Salad.class);
-		Creative.Registry.creative(RubyBlock.class);
+		Block.Registry.block(RubyBlock.class);
+		
 		Crafting.Registry.recipe(new InventoryRunnable() {
 			
 			@Override

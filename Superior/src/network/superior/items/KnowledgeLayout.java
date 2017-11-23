@@ -8,10 +8,11 @@ import org.bukkit.inventory.ItemStack;
 
 import link.mc.gui.ItemPosition;
 import link.mc.gui.Layout;
+import link.mc.gui.RawItemPosition;
 
 public class KnowledgeLayout extends Layout {
 
-	public List<ItemPosition> l = new ArrayList<ItemPosition>();
+	public List<RawItemPosition> l = new ArrayList<RawItemPosition>();
 	
 	@Override
 	public void init() {
@@ -24,7 +25,7 @@ public class KnowledgeLayout extends Layout {
 	}
 
 	@Override
-	public List<ItemPosition> getItems() {
+	public List<RawItemPosition> getItems() {
 		return l;
 	}
 

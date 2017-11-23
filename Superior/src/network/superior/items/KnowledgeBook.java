@@ -7,6 +7,7 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 
+import link.mc.gui.Page;
 import link.mc.kryan.Crafting;
 import link.mc.kryan.Item;
 import link.mc.util.item.ItemConstruct;
@@ -23,7 +24,10 @@ public class KnowledgeBook {
 	
 	@Item.Action(type = Item.ActionType.USE)
 	public void onUse(PlayerInteractEvent event) {
-		event.getPlayer().sendMessage("The GUI for the knowledge book is still work in progress");
+		//event.getPlayer().sendMessage("The GUI for the knowledge book is still work in progress");
+		Page p = new Page("The Book of Knowledge", new KnowledgeLayout());
+		p.registerEvents();
+		event.getPlayer().openInventory(p.compileItems());
 	}
 	
 	@Crafting
