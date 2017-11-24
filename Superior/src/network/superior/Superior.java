@@ -43,6 +43,8 @@ public class Superior extends JavaPlugin implements Listener {
 		
 		Item.Registry.item(KnowledgeBook.class);
 		Item.Registry.item(Salad.class);
+		
+		Item.Registry.item(RubyBlock.class);
 		Block.Registry.block(RubyBlock.class);
 		
 		Crafting.Registry.recipe(new InventoryRunnable() {

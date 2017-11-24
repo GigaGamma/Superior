@@ -1,5 +1,5 @@
 /*
- * SuperiorNetworks mod rank
+ * SuperiorNetworks Moderator rank
  */
 package network.superior.ranks;
 
