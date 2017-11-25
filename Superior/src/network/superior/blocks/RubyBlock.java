@@ -1,4 +1,4 @@
-package network.superior.items;
+package network.superior.blocks;
 
 import java.util.List;
 
@@ -35,10 +35,7 @@ public class RubyBlock {
 	
 	@Block.Action(type = Block.ActionType.USE)
 	public void onUse(PlayerInteractEvent event) {
-		event.getPlayer().sendMessage("Ruby Block Clicked");
-		List<MetadataValue> l = event.getClickedBlock().getMetadata("origin");
-		for (MetadataValue v : l)
-			event.getPlayer().sendMessage("Metadata value: " + v.asString());
+		
 	}
 	
 }
